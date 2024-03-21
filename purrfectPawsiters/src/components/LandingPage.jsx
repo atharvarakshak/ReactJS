@@ -3,11 +3,9 @@ import bgi from '../img/landing.svg'
 
 function LandingPage() {
   return (
-    <div className="  h-[100%] w-100vw">
-        <img className='' src={bgi} />
-        <div className='bg-[#618289] h-10 w-full'>
-
-        </div>
+    <div className="  h-[100%] w-full">
+        <img className='w-full ' src={bgi} />
+        <div className=' absolute bg-[#618289] h-10  w-full'> </div>
     </div>
     
   )

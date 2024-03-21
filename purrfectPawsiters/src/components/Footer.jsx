@@ -7,7 +7,7 @@ import face from '../img/facebook.svg';
 import insta from '../img/insta.svg';
 function Footer() {
   return (
-    <footer className='w-full bg-[#FFBB7A] h-20vh grid grid-cols-6'>
+    <footer className='w-full bg-[#FFBB7A] h-20vh grid grid-cols-6 relative top-5'>
      
       <div className='col-span-2 m-auto flex flex-col'>
             <div className='flex'>
