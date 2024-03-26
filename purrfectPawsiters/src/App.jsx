@@ -8,7 +8,7 @@ import Services from './components/Services'
 import Middle from './components/Middle'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
    
