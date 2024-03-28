@@ -8,12 +8,12 @@ import m6 from '..//img/m6.svg'
 function Middle() {
   return (
     <div className='bg-white z-0'>
-      <div className='relative top-10 flex flex-col md:flex-row '>
+      <div className='relative top-10 flex flex-col md:flex-row z-0 '>
         <img className='h-[250px] w-full md:w-1/2 z-0' src={m1} alt="" /> 
-        <div className='flex flex-col justify-center items-center md:w-1/2 px-4 py-6'> 
-          <h2 className='text-xl md:text-3xl mb-2 font-bold'>Day Care</h2> 
-          <p className='text-black text-sm md:text-base mb-4 w-[55%]'>Where furry friends feel at home: Find your perfect pet caretaker today!</p> 
-          <button className='mt-5 h-10 w-full md:w-auto rounded-lg bg-black text-white px-4 py-2'>Enquire now</button> 
+        <div className='z-0 flex flex-col justify-center items-center md:w-1/2 px-4 py-6'> 
+          <h2 className='z-0 text-xl md:text-3xl mb-2 font-bold'>Day Care</h2> 
+          <p className='z-0 text-black text-sm md:text-base mb-4 w-[55%]'>Where furry friends feel at home: Find your perfect pet caretaker today!</p> 
+          <button className='z-0 mt-5 h-10 w-full md:w-auto rounded-lg bg-black text-white px-4 py-2 hover:bg-gray-600'>Enquire now</button> 
         </div>
       </div>
       <div className='relative top-10 flex flex-col md:flex-row '>
@@ -21,7 +21,7 @@ function Middle() {
         <div className='flex flex-col justify-center items-center md:w-1/2 px-4 py-6'> 
           <h2 className='text-xl md:text-3xl mb-2 font-bold'>Grooming</h2> 
           <p className='text-black text-sm md:text-base mb-4 w-[55%]'> Let us handle it all for you, so you can focus on the more important things in life.</p> 
-          <button className='mt-5 h-10 w-full md:w-auto rounded-lg bg-black text-white px-4 py-2'>Enquire now</button> 
+          <button className='mt-5 h-10 w-full md:w-auto rounded-lg bg-black text-white px-4 py-2 hover:bg-gray-600'>Enquire now</button> 
         </div>
         <img className='hidden md:block h-[250px] w-full md:w-1/2' src={m2} alt="" /> 
       </div>
@@ -30,7 +30,7 @@ function Middle() {
         <div className='flex flex-col justify-center items-center md:w-1/2 px-4 py-6'> 
           <h2 className='text-xl md:text-3xl mb-2 font-bold'>Pet Training</h2> 
           <p className='text-black text-sm md:text-base mb-4 w-[55%]'>Let us handle the stress of training pets to provide mental stimulation and to make your bond with your pet even stronger.</p> 
-          <button className='mt-5 h-10 w-full md:w-auto rounded-lg bg-black text-white px-4 py-2'>Enquire now</button> 
+          <button className='mt-5 h-10 w-full md:w-auto rounded-lg bg-black text-white px-4 py-2 hover:bg-gray-600'>Enquire now</button> 
         </div>
       </div>
       <div className='relative top-10 flex flex-col md:flex-row '>
@@ -38,7 +38,7 @@ function Middle() {
         <div className='flex flex-col justify-center items-center md:w-1/2 px-4 py-6'> 
           <h2 className='text-xl md:text-3xl mb-2 font-bold'>Veterinary Assistance</h2> 
           <p className='text-black text-sm md:text-base mb-4 w-[55%]'> We're committed to providing best health assistance to your pets so you can stay worry free.</p> 
-          <button className='mt-5 h-10 w-full md:w-auto rounded-lg bg-black text-white px-4 py-2'>Enquire now</button> 
+          <button className='mt-5 h-10 w-full md:w-auto rounded-lg bg-black text-white px-4 py-2 hover:bg-gray-600'>Enquire now</button> 
         </div>
         <img className='hidden md:block h-[250px] w-full md:w-1/2 ' src={m4} alt="" /> 
       </div>
@@ -47,7 +47,7 @@ function Middle() {
         <div className='flex flex-col justify-center items-center md:w-1/2 px-4 py-6'> 
           <h2 className='text-xl md:text-3xl mb-2 font-bold'>Walking </h2> 
           <p className='text-black text-sm md:text-base mb-4 w-[55%]'>We provide regular and on-demand dog walks, tailored to the pet's needs. So stay free from the stress to ensure proper walk for your pet dog.</p> 
-          <button className='mt-5 h-10 w-full md:w-auto rounded-lg bg-black text-white px-4 py-2'>Enquire now</button> 
+          <button className='mt-5 h-10 w-full md:w-auto rounded-lg bg-black text-white px-4 py-2 hover:bg-gray-600'>Enquire now</button> 
         </div>
       </div>
       <div className='relative top-10 flex flex-col md:flex-row '>
@@ -55,7 +55,7 @@ function Middle() {
         <div className='flex flex-col justify-center items-center md:w-1/2 px-4 py-6'> 
           <h2 className='text-xl md:text-3xl mb-2 font-bold'>Breeding Assistance</h2> 
           <p className='text-black text-sm md:text-base mb-4 w-[55%]'> We offer support for mating, pregnancy monitoring, birthing, and postnatal care. Provide guidance on nutrition, health, and hygiene, and assist with finding suitable mates and coordinating veterinary care.</p> 
-          <button className='mt-5 h-10 w-full md:w-auto rounded-lg bg-black text-white px-4 py-2'>Enquire now</button> 
+          <button className='mt-5 h-10 w-full md:w-auto rounded-lg bg-black text-white px-4 py-2 hover:bg-gray-600'>Enquire now</button> 
         </div>
         <img className='hidden md:block h-[250px] w-full md:w-1/2 ' src={m6} alt="" /> 
       </div>

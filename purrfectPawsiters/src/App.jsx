@@ -19,14 +19,15 @@ function App() {
              <Nav/ >
         </div>
       
-      <div>
+      <div className='relative z-[-1]' >
       
 
-      <LandingPage/>{/* <Services className='absolute top-0 ' /> */}</div>
+      <LandingPage/>
+      <div className=' absolute top-25 z-10 left-[34%] md:left-[40%] bg-white rounded-xl '><Services  /></div></div>
 
-      <div><Middle /></div>
+      <div className='relative top-60 md:top-24 z-[-2] '><Middle /></div>
 
-      <div>
+      <div className='relative top-20'>
 
       <Footer/>
       </div>

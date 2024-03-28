@@ -7,7 +7,7 @@ import face from '../img/facebook.svg';
 import insta from '../img/insta.svg';
 function Footer() {
   return (
-    <footer className='w-full bg-[#FFBB7A] h-20vh grid grid-cols-6 relative top-5'>
+    <footer className='w-full bg-[#FFBB7A] h-20vh grid grid-cols-6 relative top-16'>
      
       <div className='col-span-2 m-auto flex flex-col'>
             <div className='flex'>
@@ -67,14 +67,10 @@ function Footer() {
 
       </div>
       <div >
-        <div className='mx-6 my-2 flex flex-col items-start'>
+        <div className=' mx-6 my-2 flex flex-col items-start'>
 
-        <h1 className='text-white text-lg'>Visit our FAQ page</h1>
-        {/* <ul className='text-white flex flex-col items-start cursor-pointer'>
-             <li className='hover:text-gray-400 '>Pet caretaking</li>   
-              <li className='hover:text-gray-400 '>Grooming</li>   
-             <li className='hover:text-gray-400 '>Veternary Services</li>   
-        </ul> */}
+        <h1 className='hidden md:block text-white text-lg'>Visit our FAQ page</h1>
+        
         </div>
 
       </div>
