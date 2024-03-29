@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { BookOpenIcon, Bars3BottomRightIcon, XMarkIcon,SunIcon } from '@heroicons/react/24/solid'
-
+// import {Link} from react-router-dom
 import logo from '../img/logo.svg'
 const Nav = () => {
   let Links = [
     { name: "HOME", link: "/" },
     { name: "SERVICES", link: "/" },
     { name: "Help", link: "/" },
-    { name: "ABOUT", link: "/" },
+    { name: "ABOUT", link: "/about" },
   ];
   let [open, setOpen] = useState(false);
 
