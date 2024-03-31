@@ -1,14 +1,19 @@
 import React from 'react'
+import Nav from '../Nav'
+import LandingPage from '../landingPage'
+import Middle from '../Middle'
+import Footer from '../Footer'
+import Services from '../Services'
 
 
 export default function Home() {
   return (
-    <>
+    <div className='z-10'>
     <div className='m-0 absolute top-0 left-0  right-0  h-screen w-screen flex flex-col'>
         
         <div className='sticky top-0 '>
 
-             <Nav/ >
+             <Nav/>
         </div>
       
       <div className='relative z-[-1]' >
@@ -25,7 +30,7 @@ export default function Home() {
       </div>
 
     </div>
-   </>
+    </div>
   )
 }
 

@@ -3,11 +3,12 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { BookOpenIcon, Bars3BottomRightIcon, XMarkIcon,SunIcon } from '@heroicons/react/24/solid'
 // import {Link} from react-router-dom
 import logo from '../img/logo.svg'
+import { NavLink } from 'react-router-dom';
 const Nav = () => {
   let Links = [
     { name: "HOME", link: "/" },
     { name: "SERVICES", link: "/" },
-    { name: "Help", link: "/" },
+    { name: "Help", link: "/help" },
     { name: "ABOUT", link: "/about" },
   ];
   let [open, setOpen] = useState(false);
@@ -47,9 +48,11 @@ const Nav = () => {
               </a>
             </li>
           ))}
+          <NavLink to="/signup">
           <button className="btn bg-[#B95A00] hover:bg-[#ea9f59] text-white md:ml-8 font-semibold px-3 py-1 rounded duration-300 md:static">
             Login/SignUp
           </button>
+          </NavLink>
         </ul>
         
       </div>

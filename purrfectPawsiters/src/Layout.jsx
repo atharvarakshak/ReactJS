@@ -1,14 +1,15 @@
 import React from 'react'
 import Nav from './components/Nav'
 
-import Footer from '../../ChaiAurReact/07reactRouter/src/components/footer/Footer'
 import { Outlet } from 'react-router-dom'
+import Footer from './components/Footer'
 function Layout() {
   return (
     <>
-        <Nav/>
-            <Outlet/> 
-        <Footer/>
+        
+      <Nav/>  
+        <Outlet/> 
+      <Footer/>
     </>
   )
 }
