@@ -62,6 +62,6 @@ app.post("/signup",async(req,res)=>{
 
 })
 
-app.listen(5173,()=>{
+app.listen(3000,()=>{
     console.log("port connected");
 })
